@@ -1,0 +1,15 @@
+.exp{
+  box-shadow:0px 6px 20px #080808a8;
+  border-radius: 6px;
+  margin: 44px 118px;
+}
+.exp h3{
+  padding-top: 20px
+}
+.exp h4{
+  line-height:1;
+  margin:10px auto;
+}
+.exp p{
+  padding: 17px
+}

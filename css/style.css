@@ -1,0 +1,81 @@
+@import url("composants/media.css");
+@import url("composants/cards.css");
+@import url("composants/interts_atouts.css");
+@import url("composants/experiences.css");
+@import url("composants/contact.css");
+
+/*generale*/
+body{
+
+  background-image: url(../images/background.jpg);
+  background-attachment:fixed;
+  background-size: cover;
+  background-position: center;
+  color:#14274e;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align:center;
+  margin: 0px 0px
+}
+
+h1{
+  font-size: 50px}
+
+
+
+p{
+  width: auto;
+  padding : 30px 15px 30px 15px;
+}
+
+a{
+  text-decoration: none;
+}
+
+h2{
+   font-size: 36px
+ }
+
+li{
+  list-style: none;
+  padding-left: 0px
+}
+ul{
+  padding-left: 0px;
+}
+
+
+/*div page et partie*/
+
+.page{
+  padding: 20px 0px;
+  margin:0px auto;
+}
+
+.partie{
+  background-color: #d9ecf2;
+  margin: 30px 7%;
+  padding: 20px auto;
+  border-radius: 6px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top:1px;
+}
+
+/*div Profil*/
+
+#profil {
+  border-radius:50%;
+  width: 240px
+}
+.btn-blue{
+  background-color: #af6f2b;
+  padding:7px;
+  border-radius:6px;
+  color: white;
+}
+
+.btn-blue:hover {
+color: black
+}
+

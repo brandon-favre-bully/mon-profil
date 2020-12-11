@@ -1,0 +1,34 @@
+/*interets*/
+.interets{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.interets img{
+  width: 130px;
+  padding-top:16px;
+}
+.interets p{
+  padding: 10px;
+}
+
+.interet{
+  flex-basis:160px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 6px 20px #080808a8
+}
+/*atout*/
+.atouts{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.atout{
+  flex-basis: 180px;
+  height: 200px;
+  flex-grow:1;
+}
